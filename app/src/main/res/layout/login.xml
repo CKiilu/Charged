@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/logintxt"
-        android:id="@+id/textView4"
+        android:id="@+id/login"
         android:textColor="#457dd6"
         android:textSize="25sp"
         android:layout_marginLeft="12dp"
