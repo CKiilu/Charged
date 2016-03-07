@@ -10,11 +10,19 @@
         android:textColor="@color/white"
         android:textSize="38sp"
         android:background="@drawable/whatyouknow"/>
-
-    <ListView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lsview">
-    </ListView>
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Fashion"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="20%"/>
+    </LinearLayout>
+
 
 </LinearLayout>
