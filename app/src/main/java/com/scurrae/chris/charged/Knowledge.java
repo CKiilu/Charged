@@ -2,6 +2,8 @@ package com.scurrae.chris.charged;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
 /**
  * Created by chris on 3/7/16.
