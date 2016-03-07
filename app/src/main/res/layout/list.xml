@@ -73,6 +73,7 @@
             android:textSize="20sp"
             android:gravity="center"
             android:text="@string/lslists"
+            android:id="@+id/listtext"
             android:textColor="@color/white"/>
         <TextView
             android:layout_width="match_parent"
