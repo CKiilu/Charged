@@ -13,11 +13,6 @@ public class Knowledge extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.knowledge);
-        String[] categ = {"Fashion", "Entertainment", "Sports", "Travelling", "Shopping", "Science", "Technologies", "Finances" };
-        ArrayAdapter adapte = new ArrayAdapter<String>(this, R.layout.knowledge, categ);
-
-        final ListView listView = (ListView) findViewById(R.id.lsview);
-        listView.setAdapter(adapte);
+        setContentView(R.layout.know2);
     }
 }
